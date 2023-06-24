@@ -3,7 +3,7 @@ import Logo1 from "../assets/logo1.png";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10  w-[1600px] text-neutral-content bg-white ">
+    <footer className="footer p-10   text-neutral-content bg-white ">
       <div>
         <img className="w-[90px] h-[110px]" src={Logo1} alt="logo" />
         <p>
