@@ -7,7 +7,7 @@ import Sketch from "../assets/sketch.png";
 import Window from "../assets/window.png";
 const Carousel = () => {
   return (
-    <div className="carousel carousel-center w-full">
+    <div className="carousel carousel-center w-full ">
       <div className="carousel-item bg-[#16697A] w-[300px] h-[300px] flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
         <img
           src={Brickwall}
