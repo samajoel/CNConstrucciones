@@ -13,7 +13,6 @@ const features = [
   {
     name: "Cal",
     description: "De Contretmix",
-    url: "../assets/concretmix.png",
   },
   { name: "Varillas", description: "De 6'' 8'' 10'' 12'' 16''" },
   { name: "Fluidos para Construcciones", description: "Sika" },
