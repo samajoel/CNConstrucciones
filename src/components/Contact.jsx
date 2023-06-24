@@ -25,13 +25,19 @@ const Contact = () => {
         </a>
       </div>
       <div className="carousel-item w-full bg-[#82C0CC]  h-full text-black flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <FaInstagram className="w-[150px] h-[150px]" />
+        <a href="https://www.instagram.com/cn_construccionespy/">
+          <FaInstagram className="w-[150px] h-[150px]" />
+        </a>
       </div>
       <div className="carousel-item w-full bg-[#EDE7E3]  h-full text-black  flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <FaFacebook className="w-[150px] h-[150px]" />
+        <a href="https://facebook.com/people/CN-Construcciones/100040894034375/">
+          <FaFacebook className="w-[150px] h-[150px]" />
+        </a>
       </div>
       <div className="carousel-item w-full bg-[#FFA62B]  h-full text-black flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <HiOutlineMail className="w-[150px] h-[150px]" />
+        <a href="mailto:samajoele@icloud.com">
+          <HiOutlineMail className="w-[150px] h-[150px]" />
+        </a>
       </div>
     </div>
   );
