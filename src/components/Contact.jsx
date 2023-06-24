@@ -16,28 +16,30 @@ const Contact = () => {
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
-      <div className="carousel-item w-full bg-[#489FB5]  h-full text-black flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <a
-          href="
+      <div className="flex w-full">
+        <div className="carousel-item w-1/4 bg-[#489FB5]  h-full text-black flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <a
+            href="
           https://wa.me/595983263282"
-        >
-          <FaWhatsapp className="w-[150px] h-[150px]" />
-        </a>
-      </div>
-      <div className="carousel-item w-full bg-[#82C0CC]  h-full text-black flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <a href="https://www.instagram.com/cn_construccionespy/">
-          <FaInstagram className="w-[150px] h-[150px]" />
-        </a>
-      </div>
-      <div className="carousel-item w-full bg-[#EDE7E3]  h-full text-black  flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <a href="https://facebook.com/people/CN-Construcciones/100040894034375/">
-          <FaFacebook className="w-[150px] h-[150px]" />
-        </a>
-      </div>
-      <div className="carousel-item w-full bg-[#FFA62B]  h-full text-black flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <a href="mailto:samajoele@icloud.com">
-          <HiOutlineMail className="w-[150px] h-[150px]" />
-        </a>
+          >
+            <FaWhatsapp className="w-[100px] h-[100px]" />
+          </a>
+        </div>
+        <div className="carousel-item w-1/4 bg-[#82C0CC]  h-full text-black flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <a href="https://www.instagram.com/cn_construccionespy/">
+            <FaInstagram className="w-[100px] h-[100px]" />
+          </a>
+        </div>
+        <div className="carousel-item w-1/4 bg-[#EDE7E3]  h-full text-black  flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <a href="https://facebook.com/people/CN-Construcciones/100040894034375/">
+            <FaFacebook className="w-[100px] h-[100px]" />
+          </a>
+        </div>
+        <div className="carousel-item w-1/4 bg-[#FFA62B]  h-full text-black flex justify-center items-center shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <a href="mailto:samajoele@icloud.com">
+            <HiOutlineMail className="w-[100px] h-[100px]" />
+          </a>
+        </div>
       </div>
     </div>
   );
