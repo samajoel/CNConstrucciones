@@ -42,7 +42,7 @@ export default function Example() {
     setNav((prevNav) => !prevNav);
   }
   return (
-    <Popover className="md:hidden z-10 relative right-[200px]">
+    <Popover className="md:hidden z-10  right-[200px]">
       <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
         <span onClick={handleClick} className="md:hidden z-10 ">
           {" "}
