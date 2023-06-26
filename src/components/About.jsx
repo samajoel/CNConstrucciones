@@ -49,13 +49,12 @@ export default function About() {
             Trabajamos con las mejores marcas.
           </h2>
           <p className="mt-4 text-gray-500">
-            Nos especializamos en proporcionar soluciones integrales de
-            almacenamiento de materiales para empresas de diversos sectores,
-            brindando un servicio confiable y de calidad. Nuestra misión es ser
-            su socio estratégico en la gestión eficiente de sus materiales. Nos
-            comprometemos a ofrecerle un depósito moderno, seguro y bien
-            organizado, que le permita optimizar sus operaciones y centrarse en
-            su core business.
+            En nuestro depósito, nos aseguramos de contar con una amplia
+            variedad de materiales provenientes de reconocidos fabricantes y
+            proveedores. Sabemos lo importante que es para ustedes obtener
+            productos duraderos, eficientes y de alta calidad, por lo que nos
+            esforzamos en seleccionar cuidadosamente cada artículo que
+            ofrecemos.
           </p>
           <Products />
         </div>
