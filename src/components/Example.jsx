@@ -17,19 +17,19 @@ import { Link } from "react-scroll";
 const solutions = [
   {
     name: "Inicio",
-    description: "Get a better understanding of your traffic",
+    description: "CN Construcciones",
     icon: CursorArrowRaysIcon,
     to: "home",
   },
   {
     name: "Nosotros",
-    description: "Speak directly to your customers",
+    description: "Un poco sobre nosotros",
     icon: ChartPieIcon,
     to: "about",
   },
   {
     name: "Contacto",
-    description: "Your customers' data will be safe and secure",
+    description: "Nuestrar Redes",
     icon: FingerPrintIcon,
     to: "contact",
   },
@@ -41,6 +41,7 @@ export default function Example() {
   function handleClick() {
     setNav((prevNav) => !prevNav);
   }
+
   return (
     <Popover className="md:hidden z-10  right-[200px]">
       <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
@@ -73,6 +74,7 @@ export default function Example() {
                       aria-hidden="true"
                     />
                   </div>
+
                   <div>
                     <Link
                       to={item.to}
@@ -81,7 +83,10 @@ export default function Example() {
                       duration={500}
                       className="font-semibold text-gray-900"
                     >
-                      {item.name}
+                      <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+                        <span className="md:hidden z-10 ">{item.name}</span>
+                      </Popover.Button>
+
                       <span className="absolute inset-0" />
                     </Link>
 
