@@ -5,8 +5,6 @@ import Arena from "../assets/IMG_3810.jpg";
 
 import Slider from "../components/Slider";
 
-import Products from "../components/Products.jsx";
-import Products2 from "../components/Products2.jsx";
 import Slider2 from "./Slider2";
 
 const features = [
