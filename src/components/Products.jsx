@@ -3,21 +3,13 @@ const products = [
     id: 1,
     name: "",
     href: "#",
-    imageSrc: "https://www.cecon.com.py/assets/imagenes/cecon-logo-dark.png",
-    imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
-  },
-  {
-    id: 2,
-    name: "",
-    href: "#",
     imageSrc:
       "https://sika.scene7.com/is/image/sika/Sika_NoClaim_pos_rgb_mobile?wid=320&hei=277&fit=crop%2C1&fmt=webp-alpha",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
-    id: 3,
+    id: 2,
     name: "",
     href: "#",
     imageSrc:
@@ -26,7 +18,7 @@ const products = [
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
-    id: 4,
+    id: 3,
     name: "",
     href: "#",
 

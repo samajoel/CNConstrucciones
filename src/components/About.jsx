@@ -3,8 +3,11 @@ import Vallemi from "../assets/IMG_3808.jpg";
 import Ladrillo from "../assets/IMG_3809.jpg";
 import Arena from "../assets/IMG_3810.jpg";
 
+import Slider from "../components/Slider";
+
 import Products from "../components/Products.jsx";
 import Products2 from "../components/Products2.jsx";
+import Slider2 from "./Slider2";
 
 const features = [
   { name: "Origin", description: "Designed by Good Goods, Inc." },
@@ -42,7 +45,7 @@ export default function About() {
             organizado, que le permita optimizar sus operaciones y centrarse en
             su core business.
           </p>
-          <Products2 />
+          <Slider />
         </div>
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -56,7 +59,7 @@ export default function About() {
             esforzamos en seleccionar cuidadosamente cada artículo que
             ofrecemos.
           </p>
-          <Products />
+          <Slider2 />
         </div>
       </div>
     </div>

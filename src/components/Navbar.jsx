@@ -36,6 +36,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <h1 className="mr-[200px]">CN Construcciones</h1>
       {/* Social Icons */}
       <Example />
     </div>
